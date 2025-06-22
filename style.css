@@ -11,17 +11,20 @@
 
 body{
     background-color: #A3AB78;
+    margin: 0px;
+    padding: 0px;
 }
 
 header{
     background-color: #10454F;
-    margin: -20px;
-    padding-top: 95px;
+    height: 100%;
+    margin: -8px -8px 0px -8px;
+    padding: 73px;
 }
 
 header > p{
-    padding-bottom: 70px ;
-    margin:  20px;
+    /*padding-bottom: 70px ; */
+    margin:  0px;
     color: #6f8a91;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -31,16 +34,17 @@ header > h1{
     font-family: var(--fonte-h1);
     color: #6f8a91;
     text-align: center;
-    padding: 0px 50px -10px 50px;
-    font-size: 7em;
+    /*padding: 0px 50px -10px 50px; */
+    font-size: 7em; 
+    margin: 0px;
 }
 
-a{
+header a{
     text-decoration: none;
     color: #6f8a91;
 }
 
-a:hover{
+header a:hover{
     color: #BDE038;
     text-decoration: underline;
 }
@@ -62,6 +66,7 @@ main{
     background: rgba(0, 0, 0) url(imagens/background001.jpg) center center no-repeat fixed;
     background-size: cover;
     padding: 20px;
+    max-width: 100%;
 }
 
 .cordelcomimagem1{
@@ -69,6 +74,8 @@ main{
     display: inline-block;
     padding: 5px;
     color: white;
+    max-width: 700px;
+    min-width: 300px;
 }
 
 .imagemlivro{
@@ -99,3 +106,20 @@ main{
     line-height: 2em;
 }
 
+footer{
+    background-color: #10454F;
+    margin: 0px -8px -8px -8px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+footer a{
+    color: rgb(177, 172, 172);
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #BDE038;
+}
